@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969890173525",
+    "firebase_url": "https://dowapp-e747b.firebaseio.com",
+    "project_id": "dowapp-e747b",
+    "storage_bucket": "dowapp-e747b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969890173525:android:316cd87650fc96f60b3adc",
+        "android_client_info": {
+          "package_name": "com.unlam.dow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969890173525-lc9f0qdlj7adjtljpgqatru7ktcbmef0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unlam.dow",
+            "certificate_hash": "8e66b0c2d8c183c89d2d3240e19485e7532b7c68"
+          }
+        },
+        {
+          "client_id": "969890173525-0nmelsef6smvdik7cs2tc8j3l5d2fn0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3GyVPnLvOeV1ECfICUQnK_oOtvzPc_Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969890173525-0nmelsef6smvdik7cs2tc8j3l5d2fn0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
