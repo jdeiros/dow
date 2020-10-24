@@ -1,2 +1,3 @@
-# dow
+# Dowapp
+
 Dog Walking App
