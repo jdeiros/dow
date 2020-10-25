@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Dow</string>
+    <string name="app_name">Dowapp</string>
+    <string name="uri_register_user">http://so-unlam.net.ar/api/api/register</string>
+    <string name="uri_login">http://so-unlam.net.ar/api/api/login</string>
+    <string name="uri_refresh_token">http://so-unlam.net.ar/api/api/refresh</string>
+    <string name="uri_register_event">http://so-unlam.net.ar/api/api/event</string>
+    <string name="environment">TEST</string>
 </resources>

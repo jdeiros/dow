@@ -7,6 +7,7 @@
     android:fitsSystemWindows="true"
     tools:context=".LoginActivity">
 
+    <include layout="@layout/action_bar_toolbar" ></include>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,16 +31,17 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/icon_user" />
+                android:src="@drawable/icon_email" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Nombre"
+                    android:hint="Email"
                     android:layout_marginLeft="5dp"
                     android:inputType="text">
                 </com.google.android.material.textfield.TextInputEditText>
@@ -57,15 +59,16 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/icon_user" />
+                android:src="@drawable/icon_password" />
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Apellido"
+                    android:hint="Contraseña"
                     android:layout_marginLeft="5dp"
                     android:inputType="text">
                 </com.google.android.material.textfield.TextInputEditText>
@@ -80,6 +83,7 @@
             android:gravity="bottom">
 
             <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="INICIAR SESIÓN"
